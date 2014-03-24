@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- In production, only one script (pdf.js) is necessary -->
+        <!-- In production, change the content of PDFJS.workerSrc below -->
+        <script type="text/javascript" src="../../src/pdf.js"></script>
+        
+        
+    </head>
+    <body>
+        <header>
+            <button id="previous-page" onclick="previousPage()">ANTERIOR</button>
+            <button id="next-page" onclick="nextPage()">SEGUINTE</button>           
+            <button id="zoom-in" onclick="return increaseFont()">ZOOM +</button>
+            <button id="zoom-out" onclick="return decreaseFont()">ZOOM -</button>
+            <button id="first-page" onclick="openPublicationOnFirstPage()">PRIMEIRA PAGINA</button>
+            <button id="current-page" onclick="openPublicationOnCurrentPage()">PAGINA ATUAL</button>      
+            <button id="render-book" onclick="renderPdf()">RENDER</button>
+        </header>
+
+        <div id="divPrincipal" style="border:1px solid black;"> </div>
+        
+    </body>
+    
+    <script type="text/javascript" src="hello.js"></script>
+</html>

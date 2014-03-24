@@ -3,7 +3,7 @@
   <PropertyGroup>
     <ProjectGuid>74138317-4a98-4e42-90d8-d38750bc7d60</ProjectGuid>
     <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
-    <AppIdentifier>br.com.knowlodge.pdfjs</AppIdentifier>
+    <AppIdentifier>br.com.knowlodge.pdfs.teste</AppIdentifier>
     <ProjectName>TestePDFjs</ProjectName>
     <IsRunnable>true</IsRunnable>
     <FrameworkVersion>3.2.0</FrameworkVersion>
